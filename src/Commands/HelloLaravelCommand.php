@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Pavons\HelloLaravel\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class HelloLaravelCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'hello-laravel';
 
     public $description = 'My command';
 
